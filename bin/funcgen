@@ -6,7 +6,7 @@ require 'yaml'
 
 options = {}
 OptionParser.new do |opts|
-  opts.banner = "Usage: funcgen.rb [options]"
+  opts.banner = "Usage: funcgen [options]"
 
   opts.on("-F", "--func FUNC", [:sin, :squ, :ramp, :puls, :nois, :dc],
           "Function type",
